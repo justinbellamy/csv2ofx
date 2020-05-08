@@ -2,7 +2,7 @@
 
 ## INTRODUCTION
 
-This fork adds support for Apple Card export .csv to Quicken.
+This fork adds support for Apple Card export .csv to Quicken .qif
 
 [csv2ofx](http://github.com/reubano/csv2ofx) is a [Python library](#library-examples) and [command line interface program](#cli-examples) that converts CSV files to OFX and QIF files for importing into GnuCash or similar financial accounting programs. csv2ofx has built in support for importing csv files from mint, yoodlee, and xero. csv2ofx has been tested on the following configuration:
 
