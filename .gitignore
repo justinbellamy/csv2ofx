@@ -3,6 +3,8 @@
 *.ipynb
 .ipynb_checkpoints/*
 examples/.ipynb_checkpoints/*
+/venv
+/.vscode
 
 # C extensions
 *.so

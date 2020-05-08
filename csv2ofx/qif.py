@@ -201,7 +201,9 @@ class QIF(Content):
         if is_investment and kwargs.get('commission'):
             content += "O%(commission)s\n" % kwargs
 
-        content += "T%(amount)0.2f\n" % kwargs
+        amt = "%(amount)0.2f" % kwargs
+        newamt = -1 * float(amt)
+        content += "T"+str(newamt)+"\n"
         return content
 
     def split_content(self, **kwargs):
